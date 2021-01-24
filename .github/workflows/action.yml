@@ -3,8 +3,8 @@ on:
   push: # 触发机制为push操作
     branches: main
   schedule: # 触发机制为定时任务
-    - cron: "10 4 * * *" # 每天12点10分自动执行
-    - cron: "10 16 * * *" # 每天12点10分自动执行
+    - cron: "10 5 * * *" # 每天1:10 pm自动执行
+    - cron: "10 17 * * *" # 每天1:10 Am自动执行
 
 jobs:
   autosend:
